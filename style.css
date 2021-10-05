@@ -52,12 +52,16 @@ main {
 }
 
 main .content-image {
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 main .content-image img {
-  height: 238px;
+  display: block;
+  width: 70%;
+  max-width: 539px;
 }
 
 main .content-title {
@@ -113,10 +117,6 @@ footer .footer-title {
   margin: 0;
 }
 
-footer .footer-author {
-  font-weight: 700;
-}
-
 /* -------------------- */
 /* Media Queries */
 /* -------------------- */
@@ -128,7 +128,7 @@ footer .footer-author {
   }
 
   main .content-image img {
-    height: 290px;
+    width: 100%;
   }
 
   main .content-title {
@@ -156,7 +156,8 @@ footer .footer-author {
   header {
     margin-bottom: 125px;
   }
-  main .content-image img {
-    height: 447px;
+
+  main .content-image {
+    align-items: flex-start;
   }
 }
