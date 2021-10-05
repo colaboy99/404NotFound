@@ -36,8 +36,6 @@
 
 ![screenshot](https://colaboy99.github.io/404NotFound/screenshot.png)
 
-- You can see [Demo](https://colaboy99.github.io/404NotFound/}) here!
-
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
