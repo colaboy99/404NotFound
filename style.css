@@ -1,0 +1,117 @@
+/* -------------------- */
+/* Import Google Fonts */
+/* -------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+
+/* -------------------- */
+/* Global */
+/* -------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* -------------------- */
+/* Header */
+/* -------------------- */
+
+header {
+    padding: 20px 24px;
+    margin-bottom: 46px;
+}
+
+header .header-title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    line-height: 25px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* -------------------- */
+/* Main */
+/* -------------------- */
+
+main {
+    width: 100vw;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+main .content-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.68px;
+    color: #333;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+main .content-image {
+    display: flex;
+    justify-content: center;
+}
+
+main .content-image img{
+    height: 238px;
+}
+
+main .content-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.63px;
+    color: #4f4f4f;
+    margin-bottom: 60px;
+}
+
+main .content-button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.49px;
+    color: #fff;
+    background-color: #333;
+    padding: 24px 43px;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+
+/* -------------------- */
+/* Footer */
+/* -------------------- */
+
+footer {
+    width: 100vw;
+    padding: 24px 42px;
+}
+
+footer .footer-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+footer .footer-author {
+    font-weight: 700;
+}
