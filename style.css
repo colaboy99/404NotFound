@@ -19,6 +19,9 @@
 body {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* -------------------- */
@@ -104,7 +107,6 @@ main .content-button {
 footer {
   width: 100vw;
   padding: 24px 42px;
-  position: relative;
 }
 
 footer .footer-title {
@@ -124,7 +126,6 @@ footer .footer-title {
 @media screen and (min-width: 768px) {
   header {
     padding: 40px 77px;
-    margin-bottom: 80px;
   }
 
   main .content-image img {
@@ -145,18 +146,9 @@ footer .footer-title {
     letter-spacing: -0.84px;
     margin-bottom: 64px;
   }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-  header {
-    margin-bottom: 125px;
-  }
-
   main .content-image {
     align-items: flex-start;
   }
